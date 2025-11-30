@@ -1,0 +1,5 @@
+a = input("Введите текст")
+b = input("Введите слово")
+c = a.count(b)
+print("Да" if c > 0 else "Нет")
+print(c)

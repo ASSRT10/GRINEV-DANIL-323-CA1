@@ -1,0 +1,5 @@
+a = input("введите текст")
+b = input("введите слово для поиска")
+print(a.count(b))
+print(a.find(b) + 1 if b in a else -1)
+print(a.replace(b, ""))

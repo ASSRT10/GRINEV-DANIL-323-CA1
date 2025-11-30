@@ -1,0 +1,15 @@
+a, b, c = map(int, input("введите числа").split())
+first = a * b
+second = b * c
+tri = c * a
+print ("умножить a на b =" , first)
+print ("умножить b на c =" , second)
+print ("умножить c на a =" , tri)
+first2 = a ** 4
+second2 = b % c 
+tri2 = c // a 
+print ("Возвести в четвертую степень первое число =" , first2)
+print ("узнать остаток от деления второго числа на третье =" , second2)
+print ("целочисленное деление третьего числа на первое =" , tri2)
+first3 = (a + b + c)
+print ("сложить все числа =" , first3) 
