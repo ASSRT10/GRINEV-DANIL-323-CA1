@@ -1,0 +1,12 @@
+grades = []
+grades.append(5)
+grades.append(4)
+grades.append(3)
+grades.append(5)
+grades.append(2)
+print(f"Текущие оценки: {grades}")
+grades.pop(0)
+grades.pop()
+avg = sum(grades) / len(grades)
+print(f"Средний балл: {avg}")
+print(f"Итоговые оценки: {grades}")

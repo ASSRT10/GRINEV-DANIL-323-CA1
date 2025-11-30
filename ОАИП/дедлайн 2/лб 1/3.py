@@ -1,4 +1,4 @@
-a = input().lower().replace(' ', '')
+a = input("введите любые слова").lower().replace(' ', '')
 b, c = 0, len(a) - 1
 while b < c:
     if a[b] != a[c]:
