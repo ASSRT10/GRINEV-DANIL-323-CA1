@@ -3,6 +3,5 @@ for b, c in a.items():
     print(f"За прилавком есть {c} {b}")
 a['яблок'] -= 2
 a['арбузов'] = 0
-
 for b, c in a.items():
     print(f"За прилавком осталось {c} {b}")
